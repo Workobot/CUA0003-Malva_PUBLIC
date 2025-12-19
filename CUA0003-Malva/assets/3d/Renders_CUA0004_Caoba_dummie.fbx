@@ -1,0 +1,949 @@
+; FBX 7.7.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1004
+	FBXVersion: 7700
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2025
+		Month: 6
+		Day: 20
+		Hour: 20
+		Minute: 40
+		Second: 2
+		Millisecond: 455
+	}
+	Creator: "FBX SDK/FBX Plugins version 2020.3.4"
+	OtherFlags:  {
+		TCDefinition: 127
+	}
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: "Created by FBX Exporter from Unity Technologies"
+			Subject: ""
+			Author: "Unity Technologies"
+			Keywords: "Nodes Meshes Materials Textures Cameras Lights Skins Animation"
+			Revision: "1.0"
+			Comment: ""
+		}
+		Properties70:  {
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", ""
+			P: "Original|ApplicationName", "KString", "", "", "Unity FBX Exporter"
+			P: "Original|ApplicationVersion", "KString", "", "", "5.1.3"
+			P: "Original|DateTime_GMT", "DateTime", "", "", ""
+			P: "Original|FileName", "KString", "", "", ""
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", ""
+			P: "LastSaved|ApplicationName", "KString", "", "", "Unity FBX Exporter"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "5.1.3"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", ""
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 1565996017104, "Scene", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 28
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 25
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 1
+		PropertyTemplate: "FbxSurfaceLambert" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Lambert"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Geometry: 1571595805152, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -50,-50,50,-50,50,50,50,50,50,50,-50,50,-50,50,-50,50,50,-50,-50,-50,-50,50,-50,-50
+		} 
+		PolygonVertexIndex: *36 {
+			a: 0,2,-2,0,3,-3,1,5,-5,1,2,-6,4,7,-7,4,5,-8,6,3,-1,6,7,-4,3,5,-3,3,7,-6,6,1,-5,6,0,-2
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *108 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
+			} 
+			NormalsW: *36 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *108 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0
+			} 
+			BinormalsW: *36 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *108 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			TangentsW: *36 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0
+			} 
+			UVIndex: *36 {
+				a: 0,2,1,0,3,2,4,6,5,4,7,6,8,10,9,8,11,10,12,14,13,12,15,14,16,18,17,16,19,18,20,22,21,20,23,22
+			} 
+		}
+		LayerElementUV: 1 {
+			Version: 101
+			Name: "UVSet1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0.690986514091492,0.347164392471313,0.690986514091492,0.652835845947266,0.996658086776733,0.652835845947266,0.996658086776733,0.347164392471313,0.309727311134338,0.652835845947266,0.309727311134338,0.347164243459702,0.00405576638877392,0.347164243459702,0.00405576638877392,0.652835845947266,0.347164243459702,0.347164243459702,0.347164243459702,0.652835845947266,0.652835845947266,0.652835845947266,0.652835845947266,0.347164243459702,0.347164243459702,0.00405576638877392,0.347164243459702,0.309727311134338,0.652835845947266,0.309727311134338,0.652835845947266,0.00405576638877392,0.690272808074951,0.309727311134338,0.995944261550903,0.309727311134338,0.995944261550903,0.00405576638877392,0.690272808074951,0.00405576638877392,0.309727311134338,0.00405576638877392,0.00405576638877392,0.00405576638877392,0.00405576638877392,0.309727311134338,0.309727311134338,0.309727311134338
+			} 
+			UVIndex: *36 {
+				a: 0,2,1,0,3,2,4,6,5,4,7,6,8,10,9,8,11,10,12,14,13,12,15,14,16,18,17,16,19,18,20,22,21,20,23,22
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+		Layer: 1 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 1
+			}
+		}
+	}
+	Model: 1577637515360, "Model::Renders_CUA0004_Caoba_dummie", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1577637531360, "Model::CUA0004_Caoba_Torre_Doble_3D003_Ascensores_Dummiew_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-7620.97015380859,1479.15000915527,568.289947509766
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-9.80287194443224e-18,93.0289916992188,3.70771758471404e-16
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",3.29815244674683,31.9315128326416,9.33230209350586
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637521360, "Model::CUA0004_Caoba_Torre_Doble_3D003_Dummie", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-7722.0703125,1381.11000061035,-501.28002166748
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-9.80287194443224e-18,93.0289916992188,3.70771758471404e-16
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.2960720062256,29.9711265563965,14.5919618606567
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637523360, "Model::CUA0004_Caoba_Torre_Doble_3D003_Dummie_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-7624.92980957031,1380.39999008179,1612.15991973877
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-9.80524098970659e-18,93.0293579101562,3.70816518868711e-16
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.9208946228027,29.9549579620361,14.6474924087524
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637517360, "Model::CUA0004_Caoba_Torre_Doble_3D007_Ascensores_Dummiew", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-4936.04011535645,1482.19003677368,3026.60007476807
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.206451416015624,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",3.29815244674683,31.9926891326904,9.55347061157227
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637527360, "Model::CUA0004_Caoba_Torre_Doble_3D007_Dummie", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-3919.80018615723,1378.95002365112,3051.02996826172
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,2.64053344726563,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.8068466186523,29.9280681610107,13.8666439056396
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637525360, "Model::CUA0004_Caoba_Torre_Doble_3D007_Dummie_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-5999.73945617676,1381.35004043579,3128.45993041992
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,2.58932495117188,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.7329406738281,29.9732894897461,14.6380109786987
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637529360, "Model::CUA0004_Caoba_Torre_Doble_3D008_Ascensores_Dummiew", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-1077.1900177002,1482.19003677368,2842.16995239258
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.206451416015624,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",2.79173231124878,31.9926891326904,9.39203548431396
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637533360, "Model::CUA0004_Caoba_Torre_Doble_3D008_Dummie", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-60.0399971008301,1381.16998672485,2848.92997741699
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,2.64053344726563,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.2145614624023,29.9711265563965,14.2762870788574
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637519360, "Model::CUA0004_Caoba_Torre_Doble_3D008_Dummie_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-2125.25005340576,1382.24992752075,2968.16997528076
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,2.40954589843751,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.4104061126709,29.9916191101074,13.9055194854736
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637539360, "Model::CUA0004_Caoba_Torre_Doble_3D009_Ascensores_Dummiew", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2831.85977935791,1482.19003677368,2659.22985076904
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.206451416015624,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",3.04888653755188,31.9926891326904,9.4245777130127
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637541360, "Model::CUA0004_Caoba_Torre_Doble_3D009_Dummie", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",3876.68991088867,1382.01999664307,2656.85005187988
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,2.64053344726563,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.3890018463135,29.9895782470703,13.7178773880005
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637537360, "Model::CUA0004_Caoba_Torre_Doble_3D009_Dummie_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1770.2299118042,1380.19990921021,2763.68999481201
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,2.76837158203127,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",18.3448581695557,29.951904296875,14.2022638320923
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637535360, "Model::CUA0004_Caoba_Torre_Doble_3D010_Ascensores_Dummiew", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",3794.86999511719,1480.48992156982,-1562.38994598389
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-31.5252952575684,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",2.8214316368103,31.9573974609375,9.6383581161499
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637547360, "Model::CUA0004_Caoba_Torre_Doble_3D010_Dummie", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",4728.37982177734,1381.78987503052,-1055.81998825073
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-31.5096683502197,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.8229598999023,29.9834289550781,13.9918832778931
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637549360, "Model::CUA0004_Caoba_Torre_Doble_3D010_Dummie_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2911.00006103516,1382.22999572754,-2174.44000244141
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-31.7769680023193,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",16.8734035491943,29.9924011230469,13.9363117218018
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637551360, "Model::CUA0004_Caoba_Torre_Doble_3D011_Ascensores_Dummiew", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",329.629993438721,1482.19003677368,-3876.47972106934
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-36.5523948669434,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",3.04888653755188,31.9926891326904,9.44253635406494
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637545360, "Model::CUA0004_Caoba_Torre_Doble_3D011_Dummie", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1212.33997344971,1380.42001724243,-3312.87994384766
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-36.5523948669434,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.8502197265625,29.9541549682617,14.3064384460449
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637543360, "Model::CUA0004_Caoba_Torre_Doble_3D011_Dummie_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-467.829990386963,1380.29003143311,-4537.26005554199
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-36.1190490722656,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.8652439117432,29.9549579620361,14.1748971939087
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637555360, "Model::CUA0004_Caoba_Torre_Doble_3D012_Ascensores_Dummiew", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-2943.4398651123,1482.19003677368,-6475.2197265625
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-41.2186698913574,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",3.04888653755188,31.9926891326904,9.48601913452148
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637561360, "Model::CUA0004_Caoba_Torre_Doble_3D012_Dummie", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-3674.169921875,1380.93996047974,-7201.03988647461
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-40.6238708496094,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.9473075866699,29.9671783447266,14.0243291854858
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637553360, "Model::CUA0004_Caoba_Torre_Doble_3D012_Dummie_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-2090.27996063232,1378.8800239563,-5837.64991760254
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-40.7755279541016,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.7606983184814,29.924991607666,14.1309680938721
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637563360, "Model::CUA0004_Caoba_Torre_Sencilla_3D_Dummie", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-7787.69989013672,1377.89001464844,-1852.0299911499
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-9.80287194443224e-18,93.0289916992188,3.70771758471404e-16
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",8.91403388977051,29.9065399169922,14.5451154708862
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637559360, "Model::CUA0004_Caoba_Torre_Sencilla_3D_Dummie_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-7837.16888427734,1379.81004714966,-3006.4998626709
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-9.80287194443224e-18,93.0289916992188,3.70771758471404e-16
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",9.28329563140869,29.9164180755615,14.6297883987427
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1577637565360, "Model::CUA0004_Caoba_Torre_Sencilla_AscensoresDummie", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-7723.32000732422,1477.10990905762,-2427.77004241943
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-9.80287194443224e-18,93.0289916992188,3.70771758471404e-16
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",2.86376428604126,31.8910636901855,8.13562202453613
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Material: 1577828170880, "Material::DefaultHDMaterial", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",0.727941155433655,0.727941155433655,0.727941155433655
+			P: "BumpFactor", "double", "Number", "",0
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",0.727941155433655,0.727941155433655,0.727941155433655
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::Renders_CUA0004_Caoba_dummie, Model::RootNode
+	C: "OO",1577637515360,0
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D003_Ascensores_Dummiew_, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637531360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D003_Dummie, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637521360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D003_Dummie_1, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637523360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D007_Ascensores_Dummiew, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637517360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D007_Dummie, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637527360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D007_Dummie_1, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637525360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D008_Ascensores_Dummiew, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637529360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D008_Dummie, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637533360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D008_Dummie_, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637519360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D009_Ascensores_Dummiew, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637539360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D009_Dummie, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637541360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D009_Dummie_, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637537360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D010_Ascensores_Dummiew, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637535360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D010_Dummie, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637547360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D010_Dummie_1, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637549360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D011_Ascensores_Dummiew, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637551360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D011_Dummie, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637545360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D011_Dummie_1, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637543360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D012_Ascensores_Dummiew, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637555360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D012_Dummie, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637561360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Doble_3D012_Dummie_, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637553360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Sencilla_3D_Dummie, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637563360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Sencilla_3D_Dummie_1, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637559360,1577637515360
+	
+	;Model::CUA0004_Caoba_Torre_Sencilla_AscensoresDummie, Model::Renders_CUA0004_Caoba_dummie
+	C: "OO",1577637565360,1577637515360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D003_Ascensores_Dummiew_
+	C: "OO",1577828170880,1577637531360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D003_Ascensores_Dummiew_
+	C: "OO",1571595805152,1577637531360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D003_Dummie
+	C: "OO",1577828170880,1577637521360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D003_Dummie
+	C: "OO",1571595805152,1577637521360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D003_Dummie_1
+	C: "OO",1577828170880,1577637523360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D003_Dummie_1
+	C: "OO",1571595805152,1577637523360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D007_Ascensores_Dummiew
+	C: "OO",1577828170880,1577637517360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D007_Ascensores_Dummiew
+	C: "OO",1571595805152,1577637517360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D007_Dummie
+	C: "OO",1577828170880,1577637527360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D007_Dummie
+	C: "OO",1571595805152,1577637527360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D007_Dummie_1
+	C: "OO",1577828170880,1577637525360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D007_Dummie_1
+	C: "OO",1571595805152,1577637525360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D008_Ascensores_Dummiew
+	C: "OO",1577828170880,1577637529360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D008_Ascensores_Dummiew
+	C: "OO",1571595805152,1577637529360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D008_Dummie
+	C: "OO",1577828170880,1577637533360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D008_Dummie
+	C: "OO",1571595805152,1577637533360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D008_Dummie_
+	C: "OO",1577828170880,1577637519360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D008_Dummie_
+	C: "OO",1571595805152,1577637519360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D009_Ascensores_Dummiew
+	C: "OO",1577828170880,1577637539360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D009_Ascensores_Dummiew
+	C: "OO",1571595805152,1577637539360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D009_Dummie
+	C: "OO",1577828170880,1577637541360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D009_Dummie
+	C: "OO",1571595805152,1577637541360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D009_Dummie_
+	C: "OO",1577828170880,1577637537360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D009_Dummie_
+	C: "OO",1571595805152,1577637537360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D010_Ascensores_Dummiew
+	C: "OO",1577828170880,1577637535360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D010_Ascensores_Dummiew
+	C: "OO",1571595805152,1577637535360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D010_Dummie
+	C: "OO",1577828170880,1577637547360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D010_Dummie
+	C: "OO",1571595805152,1577637547360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D010_Dummie_1
+	C: "OO",1577828170880,1577637549360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D010_Dummie_1
+	C: "OO",1571595805152,1577637549360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D011_Ascensores_Dummiew
+	C: "OO",1577828170880,1577637551360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D011_Ascensores_Dummiew
+	C: "OO",1571595805152,1577637551360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D011_Dummie
+	C: "OO",1577828170880,1577637545360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D011_Dummie
+	C: "OO",1571595805152,1577637545360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D011_Dummie_1
+	C: "OO",1577828170880,1577637543360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D011_Dummie_1
+	C: "OO",1571595805152,1577637543360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D012_Ascensores_Dummiew
+	C: "OO",1577828170880,1577637555360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D012_Ascensores_Dummiew
+	C: "OO",1571595805152,1577637555360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D012_Dummie
+	C: "OO",1577828170880,1577637561360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D012_Dummie
+	C: "OO",1571595805152,1577637561360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Doble_3D012_Dummie_
+	C: "OO",1577828170880,1577637553360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Doble_3D012_Dummie_
+	C: "OO",1571595805152,1577637553360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Sencilla_3D_Dummie
+	C: "OO",1577828170880,1577637563360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Sencilla_3D_Dummie
+	C: "OO",1571595805152,1577637563360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Sencilla_3D_Dummie_1
+	C: "OO",1577828170880,1577637559360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Sencilla_3D_Dummie_1
+	C: "OO",1571595805152,1577637559360
+	
+	;Material::DefaultHDMaterial, Model::CUA0004_Caoba_Torre_Sencilla_AscensoresDummie
+	C: "OO",1577828170880,1577637565360
+	
+	;Geometry::Scene, Model::CUA0004_Caoba_Torre_Sencilla_AscensoresDummie
+	C: "OO",1571595805152,1577637565360
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+}
